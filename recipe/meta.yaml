@@ -1,7 +1,7 @@
 {% set name = "marbles-mixins" %}
 {% set pipname = "marbles.mixins" %}
-{% set version = "0.9.4" %}
-{% set sha256 = "e6cddfe4ef2082e643aec89ebdc36cab539d97edee0044fe81b8e8009f59f325" %}
+{% set version = "0.9.5" %}
+{% set sha256 = "8ccc01b292f44ebbaa2e38d7bd3bd14dd69eab756d310e1acd3c606bdfbc770f" %}
 
 package:
   name: {{ name|lower }}
@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python >=3.5,<3.7
-    - pandas >=0.19.1,<0.21
+    - pandas >=0.19.1,<0.24
 
 test:
   imports:
