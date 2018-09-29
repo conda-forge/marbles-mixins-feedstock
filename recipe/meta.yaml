@@ -1,7 +1,7 @@
 {% set name = "marbles-mixins" %}
 {% set pipname = "marbles.mixins" %}
-{% set version = "0.9.5" %}
-{% set sha256 = "8ccc01b292f44ebbaa2e38d7bd3bd14dd69eab756d310e1acd3c606bdfbc770f" %}
+{% set version = "0.10.0" %}
+{% set sha256 = "d8fd3034429ebec5fef1b91e790937c656db3c7143135a92f7ae0a054e5979af" %}
 
 package:
   name: {{ name|lower }}
