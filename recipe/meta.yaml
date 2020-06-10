@@ -1,7 +1,7 @@
 {% set name = "marbles-mixins" %}
 {% set pipname = "marbles.mixins" %}
-{% set version = "0.10.0" %}
-{% set sha256 = "d8fd3034429ebec5fef1b91e790937c656db3c7143135a92f7ae0a054e5979af" %}
+{% set version = "0.11.0" %}
+{% set sha256 = "04e6c2e4451a23b71eb04f69180e485aeb8b5dfa615cc780f742786abe1f5cff" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
